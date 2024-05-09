@@ -9,6 +9,7 @@ fs.readdir(testFolder, (err, files) => {
     console.log(file)
   })
 })
+//echo alvarezwedding.live > CNAME
 
 // export default defineComponent({
 //   components: {
