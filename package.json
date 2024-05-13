@@ -15,10 +15,16 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "less": "^4.2.0",
     "pinia": "^2.1.7",
+    "sass": "^1.77.1",
+    "uikit": "^3.20.9",
     "vue": "^3.4.21",
     "vue-easy-lightbox": "^1.19.0",
-    "vue-router": "^4.3.0"
+    "vue-head": "^2.2.0",
+    "vue-router": "^4.3.0",
+    "vue-slick": "^1.2.0",
+    "vue-slick-carousel": "^1.0.5"
   },
   "devDependencies": {
     "@nightwatch/vue": "^3.1.0",

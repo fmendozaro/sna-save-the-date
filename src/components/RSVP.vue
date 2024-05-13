@@ -1,12 +1,5 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+  <div id="rsvp" class="rsvp">
     <h3>
       <h4>RSVP for dinner</h4>
       <form action="">
