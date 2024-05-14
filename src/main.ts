@@ -21,6 +21,6 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(VueHead)
 app.use(router)
-// app.use(VueEasyLightbox)
+app.use(VueEasyLightbox)
 
 app.mount('#app')

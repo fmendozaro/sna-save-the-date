@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="uk-overflow-hidden">
+  <div>
     <Navbar />
     <Home />
     <Story />
