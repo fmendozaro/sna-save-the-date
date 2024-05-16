@@ -13,6 +13,30 @@
         </h3>
         <h3>Venue:</h3>
         <p>Mavericks House P.O. Box 879 El Granada, CA 94018 (650) 728-3528</p>
+
+        <h3>Hotels Near the Venue:</h3>
+        <ul>
+          <li>Beach House Hotel</li>
+          <li>Harbor View Inn</li>
+          <li>Oceano Hotel and Spa Half Moon Bay Harbor</li>
+          <li>Inn at Mavericks</li>
+          <li>Quality Inn</li>
+          <li>Seal Cove Inn</li>
+          <li>Additionally: check VRBO and AirB and B</li>
+        </ul>
+
+        <h3>Things to do:</h3>
+        <ul>
+          <li>Fitzgerald Marine Reserve hiking and tidepools</li>
+          <li>Hiking- Devils Slide, Montara Mountain Trail</li>
+          <li>Beaches: Montara Beach, Half Moon Bay State Beach</li>
+          <li>Half Moon Bay Downtown Shopping</li>
+          <li>
+            San Francisco- lots of things to do with or without kids: California Academy of
+            Sciences, Fisherman's Wharf, Golden Gate Park, DeYoung Museum, lots of parks and open
+            air areas you can explore.
+          </li>
+        </ul>
       </div>
     </div>
   </div>
