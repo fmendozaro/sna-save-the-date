@@ -7,21 +7,24 @@
         <fieldset>
           <legend>Select a main dinner plate:</legend>
           <div>
-            <input type="radio" id="chicken" name="chicken" value="chicken" checked />
+            <input type="radio" id="chicken" name="dinner" value="chicken" checked />
             <label for="chicken">Chicken</label>
           </div>
 
           <div>
-            <input type="radio" id="salmon" name="salmon" value="salmon" checked />
+            <input type="radio" id="salmon" name="dinner" value="salmon" checked />
             <label for="salmon">Salmon</label>
           </div>
         </fieldset>
         <fieldset>
           <div>
-            <input type="text" id="kids" name="kids" value="0" />
             <label for="kids">Bringing kids, How Many?</label>
-            <i>Kids meal: fruit, chicken tenders, Mac n cheese</i>
+            <p>
+              <i>Kids meal: fruit, chicken tenders, Mac n cheese</i>
+            </p>
+            <input type="text" id="kids" name="kids" value="0" />
           </div>
+          <div><button type="submit">RSVP</button></div>
         </fieldset>
       </form>
       <ul>
