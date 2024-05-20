@@ -40,6 +40,11 @@
       </div>
     </div>
   </div>
+  <div>
+    <h3>Cash App Pay QR Code:</h3>
+    <img src="/website-qr-link.png" alt="" />
+    OR we have credit card options using a secure Stripe payment system
+  </div>
 </template>
 
 <script>

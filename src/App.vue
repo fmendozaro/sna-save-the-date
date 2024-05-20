@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overlay-rm">
     <Navbar />
     <Home />
     <Story />

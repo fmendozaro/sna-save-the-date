@@ -22,41 +22,12 @@
       ></iframe>
       <div class="uk-padding-remove-top slider">
         <slick ref="slick" :options="slickOptions">
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal1.jpg"
-              alt="foto 1"
-            />
-          </div>
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal2.jpg"
-              alt="foto 2"
-            />
-          </div>
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal3.jpg"
-              alt="foto 3"
-            />
-          </div>
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal1.jpg"
-              alt="foto 4"
-            />
-          </div>
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal2.jpg"
-              alt="foto 5"
-            />
-          </div>
-          <div class="uk-responsive-width uk-responsive-height uk-padding-small">
-            <img
-              src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/gal3.jpg"
-              alt="foto 6"
-            />
+          <div
+            v-for="n in 12"
+            :key="n"
+            class="uk-responsive-width uk-responsive-height uk-padding-small"
+          >
+            <img :src="`gal-${n}.jpeg`" :alt="`Gallery photo number ${n}`" />
           </div>
         </slick>
       </div>

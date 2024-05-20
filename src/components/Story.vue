@@ -65,10 +65,7 @@
         class="uk-padding-large"
         uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
-        <img
-          src="https://2.bp.blogspot.com/-nRvCKrAaYFw/Wi3wq9BivII/AAAAAAAAH-c/r8IFQLrApS8dJiHnMEfsvDBUS3UWUMPAQCLcBGAs/s1600/story3.jpg"
-          alt="Story 3 Khitbah"
-        />
+        <img src="/story-3.jpeg" alt="Story 3 Khitbah" />
       </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
