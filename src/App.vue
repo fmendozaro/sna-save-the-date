@@ -1,3 +1,41 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+import Navbar from './components/Navbar.vue'
+import Home from './components/Home.vue'
+import Gallery from './components/Gallery.vue'
+import Story from './components/Story.vue'
+import Rsvp from './components/RSVP.vue'
+import Support from './components/Support.vue'
+
+// export lol {
+//   name: 'app',
+//   components: {
+//     Navbar,
+//     Home,
+//     Gallery,
+//     Story,
+//     Rsvp,
+//     Support
+//   },
+//   head: {
+//     title: {
+//       inner: 'Wedding',
+//       separator: '-',
+//       complement: 'Sarah & Aaron'
+//     },
+//     meta: [
+//       { name: 'application-name', content: 'weddinginvitation' },
+//       {
+//         name: 'description',
+//         content: 'Sarah & Aaron are getting married! Celebrate the day with us!',
+//         id: 'desc'
+//       }
+//     ],
+//     link: [{ rel: 'canonical', href: 'http://alvarezwedding.live', id: 'canonical' }]
+//   }
+// }
+</script>
+
 <template>
   <div class="overlay-rm">
     <Navbar />
@@ -9,47 +47,9 @@
   </div>
 </template>
 
-<script>
-import { RouterLink, RouterView } from 'vue-router'
-import Navbar from './components/Navbar.vue'
-import Home from './components/Home.vue'
-import Gallery from './components/Gallery.vue'
-import Story from './components/Story.vue'
-import Rsvp from './components/RSVP.vue'
-import Support from './components/Support.vue'
-
-export default {
-  name: 'app',
-  components: {
-    Navbar,
-    Home,
-    Gallery,
-    Story,
-    Rsvp,
-    Support
-  },
-  head: {
-    title: {
-      inner: 'Wedding',
-      separator: '-',
-      complement: 'Sarah & Aaron'
-    },
-    meta: [
-      { name: 'application-name', content: 'weddinginvitation' },
-      {
-        name: 'description',
-        content: 'Sarah & Aaron are getting married! Celebrate the day with us!',
-        id: 'desc'
-      }
-    ],
-    link: [{ rel: 'canonical', href: 'http://alvarezwedding.live', id: 'canonical' }]
-  }
-}
-</script>
-
-<style lang="less">
+<!-- <style lang="less">
 @import '/node_modules/uikit/src/less/uikit.less';
-</style>
+</style> -->
 <style lang="scss">
 $colorprimary: #dd183f;
 
