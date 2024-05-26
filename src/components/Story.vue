@@ -98,10 +98,7 @@
         class="uk-padding-large uk-width-expand"
         uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
-        <img
-          src="https://4.bp.blogspot.com/-Yrfy4giyg-8/Wi3wqVL70aI/AAAAAAAAH-U/zn0yG3lFtZ4YuItwhBtUjA8VthTKbu8IwCLcBGAs/s1600/story1.jpg"
-          alt="Story 1 First Met"
-        />
+        <img src="/story-1.jpeg" alt="Story 1 First Met" />
       </div>
       <div class="uk-padding-medium">
         <div class="uk-card uk-card-default uk-card-hover">
@@ -126,10 +123,7 @@
         class="uk-padding-large uk-width-expand"
         uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
       >
-        <img
-          src="https://3.bp.blogspot.com/-kBl3JyQ4HbI/Wi3wq9MUDRI/AAAAAAAAH-Y/MD24gejxGV0c2qeXyKlgyMj-qW3Fncs9wCLcBGAs/s1600/story2.jpg"
-          alt="Story 2 First Dated"
-        />
+        <img src="/story-2.jpeg" alt="Story 2 First Dated" />
       </div>
       <div class="uk-padding-medium">
         <div class="uk-card uk-card-default uk-card-hover">
@@ -154,10 +148,7 @@
         class="uk-padding-large uk-width-expand"
         uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
-        <img
-          src="https://2.bp.blogspot.com/-nRvCKrAaYFw/Wi3wq9BivII/AAAAAAAAH-c/r8IFQLrApS8dJiHnMEfsvDBUS3UWUMPAQCLcBGAs/s1600/story3.jpg"
-          alt="Story 3 Khitbah"
-        />
+        <img src="/story-3.jpeg" alt="Story 3 Khitbah" />
       </div>
       <div class="uk-padding-medium">
         <div class="uk-card uk-card-default uk-card-hover">
