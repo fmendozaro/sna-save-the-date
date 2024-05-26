@@ -8,15 +8,13 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueJsx(),
-    nightwatchPlugin(),
-    VueDevTools(),
-  ],
+  plugins: [vue(), vueJsx(), nightwatchPlugin(), VueDevTools()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build: {
+    chunkSizeWarningLimit: 1600
   }
 })
