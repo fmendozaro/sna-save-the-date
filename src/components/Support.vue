@@ -1,7 +1,11 @@
 <template>
   <div id="faqs">
-    <!-- <h1 class="uk-heading-line uk-text-center uk-h1 uk-padding-small title" uk-scrollspy="cls:uk-animation-slide-top-small"><span>Supported</span></h1> -->
-    <h2>Timeline</h2>
+    <h1
+      class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
+      uk-scrollspy="cls:uk-animation-slide-top-small"
+    >
+      <span>Event/Venue Info</span>
+    </h1>
     <div class="wrapper">
       <div class="uk-responsive-width uk-visible@l">
         <h3>

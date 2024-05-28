@@ -2,36 +2,15 @@
   <div id="rsvp" class="rsvp">
     <h3>
       <h4>RSVP for dinner</h4>
-      <form action="">
-        <p>We have the following Options</p>
-        <fieldset>
-          <legend>Select a main dinner plate:</legend>
-          <div>
-            <input type="radio" id="chicken" name="dinner" value="chicken" checked />
-            <label for="chicken">Chicken</label>
-          </div>
-
-          <div>
-            <input type="radio" id="salmon" name="dinner" value="salmon" checked />
-            <label for="salmon">Salmon</label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <div>
-            <label for="kids">Bringing kids, How Many?</label>
-            <p>
-              <i>Kids meal: fruit, chicken tenders, Mac n cheese</i>
-            </p>
-            <input type="text" id="kids" name="kids" value="0" />
-          </div>
-          <div><button type="submit">RSVP</button></div>
-        </fieldset>
-      </form>
-      <ul>
-        <li>Guest arrival: 2:50 pm to 3:20 pm</li>
-        <li>Ceremony: 3:30 pm</li>
-        <li>Dinner: 5:00 pm</li>
-      </ul>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSf04CYf97ZRG4bPB_EGCPlBs66eA3bJd67Nv0saUXplr-ttVQ/viewform?embedded=true"
+        width="640"
+        height="673"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
     </h3>
   </div>
 </template>
