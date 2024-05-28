@@ -14,10 +14,11 @@
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "deploy": "npm run build && surge ./build/ alvarezwedding.live"
+    "deploy": "npm run build && surge ./build/ alvarezwedding.surge.sh"
   },
   "dependencies": {
     "less": "^4.2.0",
+    "mapbox-gl": "^3.4.0",
     "pinia": "^2.1.7",
     "sass": "^1.77.1",
     "uikit": "^3.20.9",

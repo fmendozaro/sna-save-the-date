@@ -1,4 +1,15 @@
-<script setup lang="ts">
+<template>
+  <div class="">
+    <Navbar />
+    <Home />
+    <Story />
+    <Gallery />
+    <Support />
+    <Rsvp />
+  </div>
+</template>
+
+<script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue'
 import Home from './components/Home.vue'
@@ -35,17 +46,6 @@ import Support from './components/Support.vue'
 //   }
 // }
 </script>
-
-<template>
-  <div class="overlay-rm">
-    <Navbar />
-    <Home />
-    <Story />
-    <Gallery />
-    <Support />
-    <Rsvp />
-  </div>
-</template>
 
 <!-- <style lang="less">
 @import '/node_modules/uikit/src/less/uikit.less';
