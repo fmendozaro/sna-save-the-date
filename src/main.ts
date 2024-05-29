@@ -15,21 +15,25 @@ import 'uikit/src/less/uikit.theme.less'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
+import { getAnalytics } from 'firebase/analytics'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyAWT0m0avwtjYTMQFhXhAMPdl1wAG0gLTI',
-  authDomain: 'save-the-date-61b09.firebaseapp.com',
-  projectId: 'save-the-date-61b09',
-  storageBucket: 'save-the-date-61b09.appspot.com',
-  messagingSenderId: '251867222036',
-  appId: '1:251867222036:web:9aed8b0a8c6ff246e25701'
+  apiKey: 'AIzaSyBYj-dIqunzxogjiunRW80xRgWeipsfAyk',
+  authDomain: 'alvarezweddinglive.firebaseapp.com',
+  projectId: 'alvarezweddinglive',
+  storageBucket: 'alvarezweddinglive.appspot.com',
+  messagingSenderId: '1010720251633',
+  appId: '1:1010720251633:web:be87c7bd7e0f9702b6d350',
+  measurementId: 'G-7L3CZ33SDN'
 }
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig)
+const fbApp = initializeApp(firebaseConfig)
+const analytics = getAnalytics(fbApp)
 
 // loads the Icon plugin
 UIkit.use(Icons)
