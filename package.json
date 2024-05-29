@@ -17,6 +17,7 @@
     "deploy": "npm run build && surge ./build/ alvarezwedding.surge.sh"
   },
   "dependencies": {
+    "firebase": "^10.12.2",
     "less": "^4.2.0",
     "mapbox-gl": "^3.4.0",
     "pinia": "^2.1.7",
