@@ -13,6 +13,18 @@ a,
   padding: 3px;
 }
 
+.rsvp {
+  background-color: bisque;
+}
+
+.faqs {
+  background-color: rgb(77, 130, 130);
+}
+
+.funds {
+  background-color: rgb(213, 128, 201);
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);

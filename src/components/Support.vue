@@ -1,5 +1,5 @@
 <template>
-  <div id="faqs">
+  <div id="faqs" class="faqs">
     <h1
       class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
       uk-scrollspy="cls:uk-animation-slide-top-small"
@@ -55,9 +55,16 @@
       </div>
     </div>
   </div>
-  <div>
+  <div id="fund-us" class="funds">
+    <h1
+      class="uk-heading-line uk-text-center uk-h1 uk-padding-small title uk-scrollspy-inview"
+      uk-scrollspy="cls:uk-animation-slide-top-small"
+      style=""
+    >
+      <span data-v-fc62b15b="">Help us fund our dreamhouse</span>
+    </h1>
     <h3>Cash App Pay QR Code:</h3>
-    <img src="/website-qr-link.png" alt="" />
+    <img width="100px" src="/website-qr-link.png" alt="" />
     OR we have credit card options using a secure Stripe payment system
   </div>
 </template>

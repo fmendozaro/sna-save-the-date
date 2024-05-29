@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div id="app" class="uk-overflow-hidden">
     <Navbar />
     <Home />
     <Story />
@@ -47,9 +47,10 @@ import Support from './components/Support.vue'
 // }
 </script>
 
-<!-- <style lang="less">
+<style lang="less">
 @import '/node_modules/uikit/src/less/uikit.less';
-</style> -->
+</style>
+
 <style lang="scss">
 $colorprimary: #dd183f;
 

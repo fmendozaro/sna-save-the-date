@@ -1,5 +1,8 @@
 <template>
-  <div id="home" class="">
+  <div
+    id="home"
+    class="uk-background-cover uk-overflow-hidden uk-padding-large uk-padding-remove-bottom uk-padding-remove-horizontal"
+  >
     <div class="uk-flex uk-visible@l">
       <div
         class="uk-card uk-animation-slide-bottom-medium uk-width-xlarge"
