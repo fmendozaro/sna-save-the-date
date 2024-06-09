@@ -72,7 +72,7 @@ body h1,
   color: #000000 !important;
 }
 .uk-heading-line {
-  background: #ef5974 !important;
+  background: #dd8376 !important;
 }
 
 @media screen and (max-width: 1024px) {

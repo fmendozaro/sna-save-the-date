@@ -12,12 +12,12 @@
             <div>
               <ul class="uk-navbar-nav">
                 <li><a href="#story">Story</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <!-- <li><a href="#gallery">Gallery</a></li> -->
               </ul>
             </div>
           </div>
           <a class="uk-navbar-item uk-logo" href="#home"
-            >Sarah <i class="uk-padding-small" uk-icon="icon: heart"></i> Aaron</a
+            >Sarah <img class="uk-padding-small" width="80px" src="/ring.png" /> Aaron</a
           >
           <div class="uk-navbar-center-right">
             <div>
@@ -37,7 +37,7 @@
       uk-navbar="mode: click"
     >
       <a class="uk-navbar-item uk-logo" href="#home"
-        >Sarah <i class="uk-padding-small" uk-icon="icon: heart"></i> Aaron</a
+        >Sarah <img class="uk-padding-small" width="80px" src="/ring.png" /> Aaron</a
       >
       <div class="uk-navbar-right uk-padding-small uk-padding-remove-vertical">
         <ul class="uk-navbar-nav">
@@ -46,7 +46,7 @@
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
                 <li><a href="#story">Story</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <!-- <li><a href="#gallery">Gallery</a></li> -->
                 <li><a href="#faqs">FAQs</a></li>
                 <li><a href="#rsvp">RSPV</a></li>
               </ul>
@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$colorprimary: #ef5974;
+$colorprimary: #dd8376;
 
 .uk-sticky-placeholder {
   margin: 0 !important;
@@ -104,7 +104,7 @@ $colorprimary: #ef5974;
 
 @media screen and (max-width: 1024px) {
   .uk-navbar-dropdown-nav > li > a {
-    color: #dd183f !important;
+    color: #dd8376 !important;
   }
   .uk-navbar-dropdown-nav > li > a:hover,
   .uk-navbar-dropdown-nav > li > a:focus {

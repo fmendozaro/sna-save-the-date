@@ -51,6 +51,8 @@
             Sciences, Fisherman's Wharf, Golden Gate Park, DeYoung Museum, lots of parks and open
             air areas you can explore.
           </li>
+          <li>Remember! It is cold on the coast and everyone should bring a jacket 🥶</li>
+          <img src="/cold.png" alt="" />
         </ul>
       </div>
     </div>

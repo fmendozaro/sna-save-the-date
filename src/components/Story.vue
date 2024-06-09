@@ -182,7 +182,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$colorprimary: #ef5974;
+$colorprimary: #dd8376;
 
 #story {
   padding-top: 1px;

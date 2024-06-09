@@ -74,7 +74,6 @@ $colorprimary: #dd183f;
 #home {
   background-image: url('/sea-bg.png');
   background-repeat: repeat;
-  mix-blend-mode: multiply !important;
 }
 .home {
   color: #000000 !important;

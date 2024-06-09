@@ -18,11 +18,15 @@ a,
 }
 
 .faqs {
-  background-color: rgb(77, 130, 130);
+  background-color: #1b9aaa;
 }
 
 .funds {
   background-color: rgb(213, 128, 201);
+}
+
+.uk-heading-line {
+  background-color: #dd8376;
 }
 
 @media (hover: hover) {
