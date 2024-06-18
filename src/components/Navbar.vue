@@ -12,7 +12,7 @@
             <div>
               <ul class="uk-navbar-nav">
                 <li><a href="#story">Story</a></li>
-                <!-- <li><a href="#gallery">Gallery</a></li> -->
+                <li><a href="#invitation">Invitation</a></li>
               </ul>
             </div>
           </div>
@@ -22,7 +22,7 @@
           <div class="uk-navbar-center-right">
             <div>
               <ul class="uk-navbar-nav">
-                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#support">Dreamhouse Fund</a></li>
                 <li><a href="#rsvp">RSVP</a></li>
               </ul>
             </div>
@@ -46,8 +46,9 @@
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
                 <li><a href="#story">Story</a></li>
-                <!-- <li><a href="#gallery">Gallery</a></li> -->
-                <li><a href="#faqs">FAQs</a></li>
+
+                <li><a href="#invitation">Our Invitation</a></li>
+                <li><a href="#support">Dreamhouse fund</a></li>
                 <li><a href="#rsvp">RSPV</a></li>
               </ul>
             </div>

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Gallery from '@/components/Gallery.vue'
+import Invitation from '@/components/Invitation.vue'
 import Home from '@/components/Home.vue'
 import Story from '@/components/Story.vue'
 import RSVP from '@/components/RSVP.vue'
@@ -14,11 +14,6 @@ const router = createRouter({
       component: Home
     },
     {
-      path: '/gallery',
-      name: 'gallery',
-      component: Gallery
-    },
-    {
       path: '/our-story',
       name: 'our-story',
       component: Story
@@ -29,8 +24,13 @@ const router = createRouter({
       component: RSVP
     },
     {
-      path: '/faqs',
-      name: 'faqs',
+      path: '/invitation',
+      name: 'invitation',
+      component: Invitation
+    },
+    {
+      path: '/dreamhouse',
+      name: 'support',
       component: Support
     }
   ]

@@ -3,7 +3,7 @@
     <Navbar />
     <Home />
     <Story />
-    <!-- <Gallery /> -->
+    <Invitation />
     <Support />
     <Rsvp />
   </div>
@@ -13,7 +13,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue'
 import Home from './components/Home.vue'
-// import Gallery from './components/Gallery.vue'
+import Invitation from './components/Invitation.vue'
 import Story from './components/Story.vue'
 import Rsvp from './components/RSVP.vue'
 import Support from './components/Support.vue'

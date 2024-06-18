@@ -4,94 +4,65 @@
       class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
       uk-scrollspy="cls:uk-animation-slide-top-small"
     >
-      <span>Our Invitation</span>
+      <span>Our Invitation / Venue Info</span>
     </h1>
-    <div class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-padding-remove-top">
-      <div class="text-nama">
-        <h1 uk-scrollspy="cls:uk-animation-slide-top-small">Fulanah</h1>
-        <h5 uk-scrollspy="cls:uk-animation-slide-top-small">
-          Putri Kedua Bapak Fulan dan Ibu Fulanah
-        </h5>
-        <h4 uk-scrollspy="cls:uk-animation-slide-top-small">dengan</h4>
-        <h1 uk-scrollspy="cls:uk-animation-slide-top-small">Fulan</h1>
-        <h5 uk-scrollspy="cls:uk-animation-slide-top-small">
-          Putra Pertama Bapak Fulan dan Ibu Fulanah
-        </h5>
-      </div>
-      <div class="uk-responsive-width uk-padding-large uk-padding-remove-bottom">
-        <h2>Wedding Reception</h2>
-        <p>Sabtu, 30 Desember 2017<br />11:00 - 17:00 WIB</p>
-        <div class="countdown uk-flex uk-visible@l">
-          <div uk-grid uk-countdown="date: 2017-12-30T11:00:00+00:00" class="uk-margin-auto">
-            <div>
-              <div class="uk-countdown-number uk-countdown-days"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-hours"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Hours</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-minutes"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Minutes</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-seconds"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Seconds</div>
-            </div>
-          </div>
-        </div>
-        <div class="countdown uk-flex uk-hidden@l">
-          <div uk-grid uk-countdown="date: 2017-12-30T11:00:00+00:00" class="uk-margin-auto">
-            <div>
-              <div class="uk-countdown-number uk-countdown-days"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-hours"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Hours</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-minutes"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Minutes</div>
-            </div>
-            <div class="uk-countdown-separator">:</div>
-            <div>
-              <div class="uk-countdown-number uk-countdown-seconds"></div>
-              <div class="uk-countdown-label uk-margin-small uk-text-center">Seconds</div>
-            </div>
-          </div>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam
-          provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad
-          veritatis veniam, dolore recusandae<br />
-          <a
-            class="uk-button uk-button-small"
-            href="https://www.google.co.id/maps/place/Bandung,+Kota+Bandung,+Jawa+Barat/@-6.9034443,107.5731168,12z/data=!3m1!4b1!4m5!3m4!1s0x2e68e6398252477f:0x146a1f93d3e815b2!8m2!3d-6.9174639!4d107.6191228"
-            target="_blank"
-            ><img
-              title="Directions"
-              uk-tooltip="pos: bottom"
-              class="uk-width-1-4"
-              src="https://4.bp.blogspot.com/-Zt-ZsOW1AOI/Wi3wqJgMl3I/AAAAAAAAH-Q/fgrzu20YPBE9zCVR9vbm1h4d5QweXmARgCLcBGAs/s1600/maps.png"
-              alt="Maps"
-          /></a>
-        </p>
-        <a
-          class="uk-button uk-button-small uk-button-primary"
-          href="#"
-          target="_blank"
-          title="Give words to both partners "
-          uk-tooltip="pos: bottom"
-          >Give words to both partners <i uk-icon="icon: pencil"></i
-        ></a>
-      </div>
+    <div
+      class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-padding-remove-top"
+      uk-scrollspy="cls:uk-animation-slide-top-small"
+    ></div>
+
+    <ul>
+      <li>Guest arrival: 2:50 pm to 3:20 pm</li>
+      <li>Ceremony: 3:30 pm</li>
+      <li>Dinner: 5:00 pm</li>
+    </ul>
+
+    <h3>Venue:</h3>
+    <p>Mavericks House P.O. Box 879 El Granada, CA 94018 (650) 728-3528</p>
+    <div id="venue-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.1780174732157!2d-122.49012042348932!3d37.50371932772661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f73c9e4a3a8fb%3A0xa8647fd778729d4a!2sMavericks%20House!5e0!3m2!1sen!2sus!4v1716855569768!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <h3>Hotels Near the Venue:</h3>
+    <ul>
+      <li>Beach House Hotel</li>
+      <li>Harbor View Inn</li>
+      <li>Oceano Hotel and Spa Half Moon Bay Harbor</li>
+      <li>Inn at Mavericks</li>
+      <li>Quality Inn</li>
+      <li>Seal Cove Inn</li>
+      <li>Additionally: check VRBO and AirB and B</li>
+    </ul>
+
+    <h3>Things to do:</h3>
+    <ul>
+      <li>Fitzgerald Marine Reserve hiking and tidepools</li>
+      <li>Hiking- Devils Slide, Montara Mountain Trail</li>
+      <li>Beaches: Montara Beach, Half Moon Bay State Beach</li>
+      <li>Half Moon Bay Downtown Shopping</li>
+      <li>
+        San Francisco- lots of things to do with or without kids: California Academy of Sciences,
+        Fisherman's Wharf, Golden Gate Park, DeYoung Museum, lots of parks and open air areas you
+        can explore.
+      </li>
+    </ul>
+    <div id="cold">
+      <h2
+        class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
+        uk-scrollspy="cls:uk-animation-slide-top-small"
+      >
+        <span>Remember! It is cold on the coast and everyone should bring a jacket 🥶</span>
+      </h2>
+      <img src="/jacket.jpeg" alt="" />
+      <img src="/jacket2.jpeg" alt="" />
     </div>
   </div>
 </template>
@@ -109,7 +80,20 @@ $colorprimary: #dd183f;
   padding-top: 1px;
   padding-bottom: 50px;
   background-color: #c1ebf7;
+  color: black;
 }
+
+#cold img {
+  width: 300px;
+}
+
+#invitation ul li {
+  // display: flex;
+  align-items: flex-start;
+  // justify-content: flex-start;
+  list-style-type: square;
+}
+
 .countdown * {
   font-size: 30px !important;
   color: $colorprimary !important;
