@@ -55,14 +55,13 @@
       </li>
     </ul>
     <div id="cold">
-      <h2
+      <h1
         class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
         uk-scrollspy="cls:uk-animation-slide-top-small"
       >
-        <span>Remember! It is cold on the coast and everyone should bring a jacket 🥶</span>
-      </h2>
-      <img src="/jacket.jpeg" alt="" />
-      <img src="/jacket2.jpeg" alt="" />
+        <span>Special annoucements</span>
+      </h1>
+      <img src="/reminder.png" alt="" />
     </div>
   </div>
 </template>
@@ -83,8 +82,13 @@ $colorprimary: #dd183f;
   color: black;
 }
 
+#cold {
+  height: auto;
+}
+
 #cold img {
-  width: 300px;
+  height: auto;
+  width: 90%;
 }
 
 #invitation ul li {
