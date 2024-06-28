@@ -58,11 +58,11 @@
     </nav>
     <div uk-alert class="updates-alert uk-alert-warning">
       <a href class="uk-alert-close" uk-close></a>
-      <h3>Notice</h3>
-      <p>
-        Please check regulary for updates, we will soon have more info about cool casual events
-        before and after the wedding.
-      </p>
+      <h3>👀 Important Notice 💃🏽</h3>
+      <strong>
+        Please check regulary for updates in this alert, we will soon have more info about cool
+        casual events before and after the wedding closer to the date.
+      </strong>
     </div>
   </div>
 </template>

@@ -35,6 +35,19 @@ a,
   }
 }
 
+.title {
+  font-family: 'Niconne', cursive !important;
+  color: black !important;
+}
+
+.title p:hover {
+  color: palevioletred !important;
+}
+
+body p {
+  font-size: 2em;
+}
+
 @media (min-width: 1024px) {
   body {
     display: flex;

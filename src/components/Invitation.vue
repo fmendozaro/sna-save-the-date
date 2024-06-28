@@ -11,15 +11,21 @@
       uk-scrollspy="cls:uk-animation-slide-top-small"
     ></div>
 
-    <!-- /var/folders/jl/xbvdq1452x57y8gs4fbj88cm0000gn/T/com.apple.useractivityd/shared-pasteboard/items/66164389-F141-4399-9DE7-8F3B5E853D56/79508c7f0ae03f2c95de032b38eeddbe1a23a32b.rtfd
- -->
-    <ul>
-      <li>Guest arrival: 2:50 pm to 3:20 pm</li>
+    <h2 class="title">Estimated Timeline</h2>
+    <ul class="uk-list uk-list-striped">
+      <li>Guest arrival: 3:00 pm</li>
       <li>Ceremony: 3:30 pm</li>
+      <li>Ceremony: 4:00 pm</li>
       <li>Dinner: 5:00 pm</li>
+      <li>Speeches and Toasts: 6:30 pm</li>
+      <li>Cake Cutting 7:00 pm</li>
+      <li>First Dances 7:15 pm</li>
+      <li>Open Dancing 7:30 pm</li>
+      <li>Last Call at Bar 9:30 pm</li>
+      <li>Event Ends (a su casa!) 10:00 pm</li>
     </ul>
 
-    <h3>Venue:</h3>
+    <h2 class="title">Venue:</h2>
     <p>Mavericks House P.O. Box 879 El Granada, CA 94018 (650) 728-3528</p>
     <div id="venue-map">
       <iframe
@@ -33,8 +39,8 @@
       ></iframe>
     </div>
 
-    <h3>Hotels Near the Venue:</h3>
-    <ul>
+    <h2 class="title">Hotels Near the Venue:</h2>
+    <ul class="uk-list uk-list-striped">
       <li>Beach House Hotel</li>
       <li>Harbor View Inn</li>
       <li>Oceano Hotel and Spa Half Moon Bay Harbor</li>
@@ -44,8 +50,8 @@
       <li>Additionally: check VRBO and AirB and B</li>
     </ul>
 
-    <h3>Things to do:</h3>
-    <ul>
+    <h2 class="title">Things to do:</h2>
+    <ul class="uk-list uk-list-striped">
       <li>Fitzgerald Marine Reserve hiking and tidepools</li>
       <li>Hiking- Devils Slide, Montara Mountain Trail</li>
       <li>Beaches: Montara Beach, Half Moon Bay State Beach</li>
