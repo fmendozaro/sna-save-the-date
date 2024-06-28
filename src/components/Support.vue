@@ -5,17 +5,20 @@
       uk-scrollspy="cls:uk-animation-slide-top-small"
       style=""
     >
-      <span data-v-fc62b15b="">Help us fund our dreamhouse</span>
+      <span data-v-fc62b15b="">Help us fund our dreamhouse (Registry)</span>
     </h1>
-    <h3>Stripe QR Code:</h3>
-    <img width="100px" src="/stripe-qr.png" alt="" />
-    OR we have a credit card option using a secure Stripe payment system
-    <br />
-    <stripe-buy-button
-      buy-button-id="buy_btn_1PSqKiEwxnaRaq24mhtC22wb"
-      publishable-key="pk_test_51PSqE8EwxnaRaq24wFVH631E6wPEYINzrfxuCaidnEUPJOhj6ZLi9oMkMH5xQ5Q6c9Xot5UJXjYLdDqbfu1MHXAL00hY7Rw8OE"
-    >
-    </stripe-buy-button>
+    <img src="/house.png" width="50%" alt="" />
+    <p class="">
+      Gifts are welcome but not expected. We aren't planning a honeymoon, and we don't need any
+      material items. If you would like to give us a gift, please consider contributing to our
+      DreamHouse Fund. We love living in Moss Beach, and would like to make our home the comfiest
+      and loveliest we can for our family. We would love to add on bedrooms, fix the roof, and
+      create a backyard oasis! Thank you so much!
+    </p>
+    <h3>
+      We are using Zola to process secure transactions, check the options available
+      <a href="https://www.zola.com/registry/sarahandaaronoctober11">here</a>
+    </h3>
   </div>
 </template>
 <script>
@@ -26,7 +29,7 @@ export default {
 
 <style lang="css" scoped>
 #support {
-  background-color: #c1ebf7;
+  background-color: #9d6aab;
 }
 .wrapper {
   padding-bottom: 5px;

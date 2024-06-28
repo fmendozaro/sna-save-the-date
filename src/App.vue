@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="uk-overflow-hidden">
+  <div id="app" class="uk-overflow-hidden mobile-app">
     <Navbar />
     <Home />
     <Story />
@@ -80,6 +80,7 @@ body h1,
   .uk-logo {
     font-family: 'Niconne', cursive !important;
     font-size: 35px !important;
+    margin-left: 20%;
   }
   p {
     font-size: 14px !important;
@@ -98,5 +99,12 @@ body h1,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    display: block;
+  }
 }
 </style>

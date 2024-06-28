@@ -56,6 +56,14 @@
         </ul>
       </div>
     </nav>
+    <div uk-alert class="updates-alert uk-alert-warning">
+      <a href class="uk-alert-close" uk-close></a>
+      <h3>Notice</h3>
+      <p>
+        Please check regulary for updates, we will soon have more info about cool casual events
+        before and after the wedding.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -101,6 +109,12 @@ $colorprimary: #dd8376;
   top: 100% !important;
   left: 0 !important;
   content: '';
+}
+
+body,
+nav,
+.updates-alert {
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {

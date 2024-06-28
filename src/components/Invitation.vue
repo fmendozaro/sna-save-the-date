@@ -11,6 +11,8 @@
       uk-scrollspy="cls:uk-animation-slide-top-small"
     ></div>
 
+    <!-- /var/folders/jl/xbvdq1452x57y8gs4fbj88cm0000gn/T/com.apple.useractivityd/shared-pasteboard/items/66164389-F141-4399-9DE7-8F3B5E853D56/79508c7f0ae03f2c95de032b38eeddbe1a23a32b.rtfd
+ -->
     <ul>
       <li>Guest arrival: 2:50 pm to 3:20 pm</li>
       <li>Ceremony: 3:30 pm</li>
