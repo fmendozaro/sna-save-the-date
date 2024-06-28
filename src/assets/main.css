@@ -45,7 +45,7 @@ a,
 }
 
 body p {
-  font-size: 2em;
+  font-size: 2em !important;
 }
 
 @media (min-width: 1024px) {

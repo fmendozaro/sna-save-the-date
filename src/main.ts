@@ -36,7 +36,8 @@ const fbApp = initializeApp(firebaseConfig)
 const analytics = getAnalytics(fbApp)
 
 // loads the Icon plugin
-UIkit.use(Icons)
+// UIkit.use(Icons)
+// UIkit.countdown(body, options)
 
 const app = createApp(App)
 
