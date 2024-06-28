@@ -15,7 +15,7 @@
     <ul class="uk-list uk-list-striped">
       <li>Guest arrival: 3:00 pm</li>
       <li>Ceremony: 3:30 pm</li>
-      <li>Ceremony: 4:00 pm</li>
+      <li>Cocktail Hour: 4:00 pm</li>
       <li>Dinner: 5:00 pm</li>
       <li>Speeches and Toasts: 6:30 pm</li>
       <li>Cake Cutting 7:00 pm</li>
