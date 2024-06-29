@@ -37,6 +37,7 @@
           </div>
         </div>
       </div>
+
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
           <div class="bulet-kiri"></div>
@@ -105,6 +106,12 @@
         <img src="/story4.png" alt="Story 2 First Dated" />
       </div>
 
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
+      >
+        <img src="/story5.png" alt="Story 2 First Dated" />
+      </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
           <div class="bulet-kanan"></div>
@@ -119,12 +126,6 @@
             <p>KAUAI!</p>
           </div>
         </div>
-      </div>
-      <div
-        class="uk-padding-large"
-        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
-      >
-        <img src="/story5.png" alt="Story 2 First Dated" />
       </div>
 
       <div class="uk-padding-large">
@@ -144,11 +145,17 @@
       </div>
       <div
         class="uk-padding-large"
-        uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
+        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
         <img src="/story6.png" alt="Story 2 First Dated" />
       </div>
 
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
+      >
+        <img src="/story7.png" alt="Story 2 First Dated" />
+      </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
           <div class="bulet-kanan"></div>
@@ -166,12 +173,6 @@
             </p>
           </div>
         </div>
-      </div>
-      <div
-        class="uk-padding-large"
-        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
-      >
-        <img src="/story7.png" alt="Story 2 First Dated" />
       </div>
 
       <div class="uk-padding-large">
@@ -196,6 +197,12 @@
         <img src="/story8.png" alt="Story 2 First Dated" />
       </div>
 
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
+      >
+        <img src="/story9.png" alt="Story 2 First Dated" />
+      </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
           <div class="bulet-kanan"></div>
@@ -214,9 +221,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
-      <img src="/story9.png" alt="Story 2 First Dated" />
     </div>
 
     <div
