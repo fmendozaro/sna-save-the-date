@@ -15,7 +15,7 @@
         class="uk-padding-large"
         uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
-        <img src="/story-1.jpeg" alt="Story 1 Pic" />
+        <img src="/story1.jpeg" alt="Story 1 Pic" />
       </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
@@ -23,15 +23,16 @@
           <div class="uk-card-header uk-card-primary">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
               <div class="uk-width-expand">
-                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">3 September 2016</h3>
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter I</h3>
               </div>
             </div>
           </div>
           <div class="uk-card-body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam
-              provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad
-              veritatis veniam, dolore recusandae?.
+              Aaron and Sarah met up in Redwood City in August 14th, 2015 as they were impressing
+              each other with their big smiles noticed that Sarah's triathlon team-mates had
+              followed her on the date and had been spying on them the whole time! It turned into a
+              lovely group date….
             </p>
           </div>
         </div>
@@ -42,15 +43,14 @@
           <div class="uk-card-header uk-card-primary">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
               <div class="uk-width-expand">
-                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">26 Mei 2017</h3>
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter II</h3>
               </div>
             </div>
           </div>
           <div class="uk-card-body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam
-              provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad
-              veritatis veniam, dolore recusandae?.
+              As Aaron and Sarah fell in love and spent more time together, all of Sarah's animals
+              benefited greatly from the relationship…
             </p>
           </div>
         </div>
@@ -59,13 +59,13 @@
         class="uk-padding-large"
         uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
       >
-        <img src="/story-2.jpeg" alt="Story 2 First Dated" />
+        <img src="/story2.png" alt="Story 2 First Dated" />
       </div>
       <div
         class="uk-padding-large"
         uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
       >
-        <img src="/story-3.jpeg" alt="Story 3 Khitbah" />
+        <img src="/story3.png" alt="Story 3 Khitbah" />
       </div>
       <div class="uk-padding-large">
         <div class="uk-card uk-card-default uk-card-hover">
@@ -73,22 +73,152 @@
           <div class="uk-card-header uk-card-primary">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
               <div class="uk-width-expand">
-                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">
-                  21 September 2017
-                </h3>
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter III</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>And then the adventures began! ALASKA!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kiri"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter IV</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>The big island adventures!</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
+      >
+        <img src="/story4.png" alt="Story 2 First Dated" />
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kanan"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter V</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>KAUAI!</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
+      >
+        <img src="/story5.png" alt="Story 2 First Dated" />
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kanan"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter VI</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>But the greatest adventure of all was the arrival of Alessandra…</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
+      >
+        <img src="/story6.png" alt="Story 2 First Dated" />
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kanan"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter VII</h3>
               </div>
             </div>
           </div>
           <div class="uk-card-body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam
-              provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad
-              veritatis veniam, dolore recusandae?.
+              Sarah, Aaron and Alessandra moved to Moss Beach and soaked up the beautiful forests
+              and ocean.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true"
+      >
+        <img src="/story7.png" alt="Story 2 First Dated" />
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kanan"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter VIII</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>Alessandra became the best big sister to baby Callum…</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="uk-padding-large"
+        uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"
+      >
+        <img src="/story8.png" alt="Story 2 First Dated" />
+      </div>
+
+      <div class="uk-padding-large">
+        <div class="uk-card uk-card-default uk-card-hover">
+          <div class="bulet-kanan"></div>
+          <div class="uk-card-header uk-card-primary">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-bold">Chapter IX</h3>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              And here we are now, gearing up for spending time with our friends and family at our
+              Wedding! We hope you enjoy it!
             </p>
           </div>
         </div>
       </div>
     </div>
+    <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+      <img src="/story9.png" alt="Story 2 First Dated" />
+    </div>
+
     <div
       class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-grid-collapse uk-hidden@l uk-position-relative"
       uk-grid
@@ -111,11 +241,7 @@
             </div>
           </div>
           <div class="uk-card-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam
-              provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad
-              veritatis veniam, dolore recusandae?.
-            </p>
+            <p>Adventures in the big island</p>
           </div>
         </div>
       </div>
