@@ -280,5 +280,8 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
+  #story {
+    font-size: 1rem;
+  }
 }
 </style>
