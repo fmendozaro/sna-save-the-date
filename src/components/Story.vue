@@ -29,10 +29,10 @@
           </div>
           <div class="uk-card-body">
             <p>
-              Aaron and Sarah met up in Redwood City in August 14th, 2015 as they were impressing
-              each other with their big smiles noticed that Sarah's triathlon team-mates had
+              Aaron and Sarah met up in Redwood City on August 14th, and as they were impressing
+              each other with their big smiles they noticed that Sarah's triathlon team-mates had
               followed her on the date and had been spying on them the whole time! It turned into a
-              lovely group date….
+              lovely group date....
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@
             </div>
           </div>
           <div class="uk-card-body">
-            <p>The big island adventures!</p>
+            <p>The Big Island!</p>
           </div>
         </div>
       </div>
@@ -240,7 +240,7 @@ $colorprimary: #dd8376;
   background-color: #ffffff;
 }
 img {
-  width: 100%;
+  width: 80%;
 }
 .uk-card-primary {
   background-color: $colorprimary;
@@ -281,7 +281,24 @@ img {
 
 @media screen and (max-width: 1024px) {
   #story {
-    font-size: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .garis-vertical {
+    display: none;
+  }
+
+  .bulet-kanan {
+    display: none;
+  }
+
+  .bulet-kiri {
+    display: none;
+  }
+  img,
+  div {
+    width: 100%;
+    height: 100%vh;
   }
 }
 </style>

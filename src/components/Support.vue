@@ -23,7 +23,9 @@
             comfiest and loveliest we can for our family. We would love to add on bedrooms, fix the
             roof, and create a backyard oasis! Thank you so much!. We are using Zola to process
             secure transactions, check the options available
-            <a href="https://www.zola.com/registry/sarahandaaronoctober11" target="_blank">here</a>
+            <a href="https://www.zola.com/wedding/sarahandaaronoctober11/registry" target="_blank"
+              >here</a
+            >
           </p>
         </div>
       </div>

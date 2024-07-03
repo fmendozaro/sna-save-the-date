@@ -4,14 +4,14 @@
       class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
       uk-scrollspy="cls:uk-animation-slide-top-small"
     >
-      <span>Our Invitation / Venue Info</span>
+      <span>Invitation & Venue Info</span>
     </h1>
     <div
       class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-padding-remove-top"
       uk-scrollspy="cls:uk-animation-slide-top-small"
     ></div>
 
-    <h2 class="title">Estimated Timeline</h2>
+    <h2 class="title">Timeline</h2>
     <ul class="uk-list uk-list-striped">
       <li>Guest arrival: 3:00 pm</li>
       <li>Ceremony: 3:30 pm</li>
@@ -25,13 +25,12 @@
       <li>Event Ends (a su casa!) 10:00 pm</li>
     </ul>
 
-    <h2 class="title">Venue:</h2>
-    <p>Mavericks House P.O. Box 879 El Granada, CA 94018 (650) 728-3528</p>
+    <h2 class="title">Venue Address and Map:</h2>
     <div id="venue-map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.1780174732157!2d-122.49012042348932!3d37.50371932772661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f73c9e4a3a8fb%3A0xa8647fd778729d4a!2sMavericks%20House!5e0!3m2!1sen!2sus!4v1716855569768!5m2!1sen!2sus"
-        width="600"
-        height="450"
+        width="100%"
+        height="700"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
@@ -63,13 +62,47 @@
       </li>
     </ul>
     <div id="cold">
-      <h1
+      <h2
         class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
         uk-scrollspy="cls:uk-animation-slide-top-small"
       >
         <span>Special annoucements</span>
-      </h1>
+      </h2>
       <img src="/reminder.png" alt="" />
+
+      <h2
+        class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
+        uk-scrollspy="cls:uk-animation-slide-top-small"
+      >
+        <h2 class="title black">FAQs</h2>
+      </h2>
+      <p>Click on each question to reveal the question</p>
+      <ul uk-accordion>
+        <li>
+          <a class="uk-accordion-title" href>Is there parking available at the venue?</a>
+          <div class="uk-accordion-content">
+            <p>Yes, there's plenty of space around and in the venue</p>
+          </div>
+        </li>
+        <li class="uk-open">
+          <a class="uk-accordion-title" href>What's the dress code?</a>
+          <div class="uk-accordion-content">
+            <p>
+              - The Dress code is Cocktail Attire, we found this article very useful so we suggest
+              to read this link if you are looking some guide ideas and inspired looks:
+              <a href="https://www.brides.com/story/wedding-dress-code-explained#toc-cocktail"
+                >https://www.brides.com/story/wedding-dress-code-explained#toc-cocktail</a
+              >
+            </p>
+          </div>
+        </li>
+        <li>
+          <a class="uk-accordion-title" href>Are there non-alcolic options at the bar?</a>
+          <div class="uk-accordion-content">
+            <p>TBD</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -96,13 +129,11 @@ $colorprimary: #dd183f;
 
 #cold img {
   height: auto;
-  width: 90%;
+  width: 0%;
 }
 
 #invitation ul li {
-  // display: flex;
   align-items: flex-start;
-  // justify-content: flex-start;
   list-style-type: square;
 }
 
