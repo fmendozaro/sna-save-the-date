@@ -49,7 +49,7 @@
 
                 <li><a href="#invitation">Our Invitation</a></li>
                 <li><a href="#support">Dreamhouse fund</a></li>
-                <li><a href="#rsvp">RSPV</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
               </ul>
             </div>
           </li>
