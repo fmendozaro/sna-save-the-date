@@ -61,16 +61,7 @@ body h1,
   font-family: 'Niconne', cursive !important;
   font-size: 35px !important;
 }
-.title {
-  color: #ffffff !important;
-  font-size: 30px !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-}
-.title:hover,
-.title:focus {
-  color: #000000 !important;
-}
+
 .uk-heading-line {
   background: #dd8376 !important;
 }

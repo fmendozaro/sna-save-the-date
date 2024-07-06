@@ -38,8 +38,9 @@ const analytics = getAnalytics(fbApp)
 // loads the Icon plugin
 UIkit.use(Icons)
 const ctdown = document.querySelector('#cntdown')
-UIkit.countdown(ctdown, null)
-UIkit.countdown(ctdown).start()
+// UIkit.lightboxPanel(null)
+// UIkit.countdown(ctdown, null)
+// UIkit.countdown(ctdown).start()
 
 const app = createApp(App)
 

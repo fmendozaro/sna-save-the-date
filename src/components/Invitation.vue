@@ -66,40 +66,41 @@
         class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
         uk-scrollspy="cls:uk-animation-slide-top-small"
       >
-        <span>Special annoucements</span>
+        <span>Latest Updates & Annoucements</span>
       </h2>
-      <img src="/reminder.png" alt="" />
+      <img src="/reminder.png" width="80%" alt="its cold bring a jacket" />
+      <div id="updates" class="uk-tile uk-tile-default">
+        Updates will be posted soon... come back and bring some snacks
+      </div>
 
-      <h2
-        class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
-        uk-scrollspy="cls:uk-animation-slide-top-small"
-      >
-        <h2 class="title black">FAQs</h2>
-      </h2>
-      <p>Click on each question to reveal the question</p>
+      <h2 class="title">FAQs</h2>
+      <p>
+        We consulted these two experts and little geniuses about life and a few questions, check
+        their answers out but please don't fact check them.
+        <img src="/faqs-experts.png" />
+      </p>
+      <div uk-alert>
+        <a href class="uk-alert-close uk-alert-warning" uk-close></a>
+        <p>ℹ️ Click on each question to reveal the answer</p>
+      </div>
       <ul uk-accordion>
         <li>
-          <a class="uk-accordion-title" href>Is there parking available at the venue?</a>
+          <a class="uk-accordion-title" href>Q: Is there parking available at the venue?</a>
           <div class="uk-accordion-content">
-            <p>Yes, there's plenty of space around and in the venue</p>
+            <p>A: Yes, there's plenty of space around and in the venue</p>
           </div>
         </li>
         <li class="uk-open">
-          <a class="uk-accordion-title" href>What's the dress code?</a>
+          <a class="uk-accordion-title" href>Q: What's the dress code?</a>
           <div class="uk-accordion-content">
             <p>
-              - The Dress code is Cocktail Attire, we found this article very useful so we suggest
-              to read this link if you are looking some guide ideas and inspired looks:
+              A: The Dress code is <strong>Cocktail Attire</strong>, we found this article very
+              useful so we suggest to read this link if you are looking some guide ideas and
+              inspired looks:
               <a href="https://www.brides.com/story/wedding-dress-code-explained#toc-cocktail"
                 >https://www.brides.com/story/wedding-dress-code-explained#toc-cocktail</a
               >
             </p>
-          </div>
-        </li>
-        <li>
-          <a class="uk-accordion-title" href>Are there non-alcolic options at the bar?</a>
-          <div class="uk-accordion-content">
-            <p>TBD</p>
           </div>
         </li>
       </ul>
