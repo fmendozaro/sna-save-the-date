@@ -68,17 +68,13 @@
       >
         <span>Latest Updates & Annoucements</span>
       </h2>
-      <img src="/reminder.png" width="80%" alt="its cold bring a jacket" />
+      <img src="/reminder.png" alt="its cold bring a jacket" />
       <div id="updates" class="uk-tile uk-tile-default">
-        Updates will be posted soon... come back and bring some snacks
+        Updates will be posted soon, in the meantime take a look at our FAQs
       </div>
 
       <h2 class="title">FAQs</h2>
-      <p>
-        We consulted these two experts and little geniuses about life and a few questions, check
-        their answers out but please don't fact check them.
-        <img src="/faqs-experts.png" />
-      </p>
+      <img src="/faqs.jpg" />
       <div uk-alert>
         <a href class="uk-alert-close uk-alert-warning" uk-close></a>
         <p>ℹ️ Click on each question to reveal the answer</p>
@@ -130,7 +126,7 @@ $colorprimary: #dd183f;
 
 #cold img {
   height: auto;
-  width: 0%;
+  width: 80%;
 }
 
 #invitation ul li {
