@@ -23,12 +23,17 @@
         >
           {{ title }}
         </h1>
-        <p
-          class="uk-text-center uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
-          uk-parallax="target: #home; y: 200; blur: 0,05;easing: 0;"
+        <a
+          href="https://www.google.com/maps/place/Mavericks+House/@37.503715,-122.487545,16z/data=!4m6!3m5!1s0x808f73c9e4a3a8fb:0xa8647fd778729d4a!8m2!3d37.5037151!4d-122.4875455!16s%2Fg%2F1tgpsvsk?hl=en&entry=ttu"
+          target="_blank"
         >
-          {{ deskripsi }}
-        </p>
+          <p
+            class="uk-text-center uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
+            uk-parallax="target: #home; y: 200; blur: 0,05;easing: 0;"
+          >
+            {{ deskripsi }}
+          </p>
+        </a>
       </div>
     </div>
     <div class="uk-hidden@l">

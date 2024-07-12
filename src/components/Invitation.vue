@@ -10,7 +10,6 @@
       class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-padding-remove-top"
       uk-scrollspy="cls:uk-animation-slide-top-small"
     ></div>
-
     <h2 class="title">Timeline</h2>
     <ul class="uk-list uk-list-striped">
       <li>Guest arrival: 3:00 pm</li>

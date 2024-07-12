@@ -28,7 +28,7 @@
         <strong>secure</strong>
         transactions, check the options available in any of the donate buttons
         <a href="https://www.zola.com/wedding/sarahandaaronoctober11/registry" target="_blank"
-          ><img width="80px" src="/donate-donation-icon.png"
+          ><ixmg width="80px" src="/donate-donation-icon.png"
         /></a>
       </p>
     </div>
