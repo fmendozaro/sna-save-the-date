@@ -68,9 +68,29 @@
         <span>Latest Updates & Annoucements</span>
       </h2>
       <img src="/reminder.png" alt="its cold bring a jacket" />
-      <div id="updates" class="uk-tile uk-tile-default">
-        Updates will be posted soon, in the meantime take a look at our FAQs
-      </div>
+
+      <h2 id="updates" class="title">🗓️ Events Pre/Post the wedding</h2>
+      <ul class="uk-list uk-list-striped">
+        <li>
+          Thursday Oct 10: Gathering at Old Princeton Landing (El Granada). Food and drinks for
+          purchase. This place is very close to the venue. Start time 5:30 pm.
+        </li>
+        <li>Friday Oct 11: We might be all booked already for the wedding... Jeepers!</li>
+        <li>
+          Saturday Oct 12: brunch at the house mom/dad are renting in Moss Beach. Then hiking at
+          Purissima creek Trail. Dinner at It's Italia or Pasta Moon in Half Moon Bay.
+        </li>
+        <li>
+          Sunday Oct 13: Alcatraz Tour time: 12:00 pm. Please purchase your tickets asap:
+          <a href="https://www.alcatrazislandtickets.com/tickets/#ptps" target="_blank">here</a>
+          Walk across golden gate bridge, ride the cable car and eat ice cream at Ghiradelli, dinner
+          at a restaurant in San Francisco.
+        </li>
+        <li>
+          Monday Oct 14: tide pools (Fitzgerald Marine Reserve) by Sarah's house in the morning and
+          lunch at Moss Beach Distillery. The Brits fly home!
+        </li>
+      </ul>
 
       <h2 class="title">FAQs</h2>
       <img src="/faqs.jpg" />
@@ -128,7 +148,8 @@ $colorprimary: #dd183f;
   width: 80%;
 }
 
-#invitation ul li {
+#invitation,
+ul li {
   align-items: flex-start;
   list-style-type: square;
 }
