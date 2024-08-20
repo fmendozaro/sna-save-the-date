@@ -60,7 +60,7 @@
       <a href class="uk-alert-close" uk-close></a>
       <h3>👀 Important Notice ⚠️</h3>
       <strong>
-        1. Don't forget the deadline for RSVP is August 12th 2024 🕰️ <br />
+        1. Don't forget the deadline for RSVP is August 31th 2024 🕰️ <br />
         2. Please check regulary for updates in <a href="#updates">this section</a>in this alert, we
         will soon have more info about cool casual events before and after the wedding closer to the
         date.
