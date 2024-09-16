@@ -65,32 +65,59 @@
         class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
         uk-scrollspy="cls:uk-animation-slide-top-small"
       >
-        <span>Latest Updates & Annoucements</span>
+        <span>🗓️ List of Events Pre/Post the Wedding Day</span>
       </h2>
       <img src="/reminder.png" alt="its cold bring a jacket" />
+      <div class="uk-child-width-expand@s" uk-grid>
+        <div>
+          <h4>Thursday Oct 10th:</h4>
+          <ul class="uk-list uk-list-disc">
+            <li>
+              4 pm to 5 pm: Rehearsal at Maverick's House (107 Broadway, Half Moon Bay, CA 94019)
+              for those participating in the wedding
+            </li>
+            <li>
+              5:30 pm: Gathering at Old Princeton Landing Public House and Grill (460 Capistrano Rd,
+              Half Moon Bay, CA 94019). Food and drinks for purchase. This place is very close to
+              the venue. Attire is casual, or dress up if you prefer; I do! It might be cold.
+            </li>
+          </ul>
+        </div>
 
-      <h2 id="updates" class="title">🗓️ Events Pre/Post the wedding</h2>
-      <ul class="uk-list uk-list-striped">
-        <li>
-          Thursday Oct 10: Gathering at Old Princeton Landing (El Granada). Food and drinks for
-          purchase. This place is very close to the venue. Start time 5:30 pm.
-        </li>
-        <li>Friday Oct 11: We might be all booked already for the wedding... Jeepers!</li>
-        <li>
-          Saturday Oct 12: brunch at the house mom/dad are renting in Moss Beach. Then hiking at
-          Purissima creek Trail. Dinner at It's Italia or Pasta Moon in Half Moon Bay.
-        </li>
-        <li>
-          Sunday Oct 13: Alcatraz Tour time: 12:00 pm. Please purchase your tickets asap:
-          <a href="https://www.alcatrazislandtickets.com/tickets/#ptps" target="_blank">here</a>
-          Walk across golden gate bridge, ride the cable car and eat ice cream at Ghiradelli, dinner
-          at a restaurant in San Francisco.
-        </li>
-        <li>
-          Monday Oct 14: tide pools (Fitzgerald Marine Reserve) by Sarah's house in the morning and
-          lunch at Moss Beach Distillery. The Brits fly home!
-        </li>
-      </ul>
+        <div>
+          <h4>Friday Oct 11th:</h4>
+          <ul class="uk-list uk-list-disc">
+            <li>
+              The wedding... Jeepers! Have fun! (Guest arrival 3:00 pm; Ceremony 3:30 pm) @ 107
+              Broadway, Half Moon Bay, CA 94019. There is plenty of parking at the venue
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Saturday Oct 12th:</h4>
+          <ul class="uk-list">
+            <li>
+              11 am: Brunch at the house Susan and Andrew are renting in Moss Beach: (10 Ellendale
+              St., Moss Beach, CA) . We will need a headcount for this please!. I think mimosas are
+              involved😋
+            </li>
+            <li>
+              2 pm: Hiking at Purissima creek Trail (in Purisima Creek Redwoods Preserve). We are no
+              longer going to park at the North Ridge Parking Lot! My buddies Kait and Heather did a
+              practice hike with me from that parking lot. Too hard and strenuous! We are now going
+              to park at the "Purisima Creek Road Parking Area". The hikes from here are much more
+              family friendly. Lots of redwoods and banana slugs. There are only 7 parking spots!!
+              There are some roadside parking spots, maybe enough for about 8 cars. This parking lot
+              will take us to the Purisima Creek Trailhead. Here is directions and the webpage
+              <br />
+              <a href="https://www.openspace.org/preserves/purisima-creek-redwoods#parking">
+                Purisima Creek Road Parking Area (7 spaces + 1 ADA) - Purisima Creek Trailhead</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
 
       <h2 class="title">FAQs</h2>
       <img src="/faqs.jpg" />
@@ -145,7 +172,16 @@ $colorprimary: #dd183f;
 
 #cold img {
   height: auto;
-  width: 80%;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+}
+
+#cold,
+ul li {
+  // align-items: flex-start;
+  text-align: left;
+  list-style-type: square;
 }
 
 #invitation,
@@ -194,6 +230,10 @@ h4 {
 }
 h5 {
   color: #666666 !important;
+}
+
+#updates ul li {
+  text-align: left;
 }
 
 @media screen and (max-width: 1024px) {

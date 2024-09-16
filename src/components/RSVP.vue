@@ -9,7 +9,6 @@
     </h1>
     <div uk-alert class="updates-alert uk-alert-danger">
       <a href="#" class="uk-alert-close" uk-close></a>
-      <h3>Deadline for RSVP: August 31th 2024 🕰️</h3>
       <strong>
         Please RSVP and send one submission for each person so we can consider their meal preference
       </strong>

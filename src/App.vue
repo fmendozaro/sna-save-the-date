@@ -12,6 +12,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue'
+import EventUpdates from './components/EventUpdates.vue'
 import Home from './components/Home.vue'
 import Invitation from './components/Invitation.vue'
 import Story from './components/Story.vue'
