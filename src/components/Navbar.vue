@@ -58,11 +58,15 @@
     </nav>
     <div uk-alert class="updates-alert uk-alert-warning">
       <a href class="uk-alert-close" uk-close></a>
-      <h3>👀 Important Notice ⚠️</h3>
+      <h1>👀 Important Notice ⚠️</h1>
+      <hr />
+      <h3>Capture the LOVE - Wedding Photo Album</h3>
       <strong>
-        Please check regulary for updates in <a href="#updates">this section</a>in this alert, we
-        will soon have more info about cool casual events before and after the wedding closer to the
-        date.
+        You can upload your best photos of the wedding in our google photos album<a
+          href="https://photos.app.goo.gl/pkoEnLvjCgAHfsHJ6"
+          target="_blank"
+          >Here</a
+        >
       </strong>
     </div>
   </div>

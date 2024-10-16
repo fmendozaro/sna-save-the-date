@@ -68,7 +68,7 @@
         <span>🗓️ List of Events Pre/Post the Wedding Day</span>
       </h2>
       <img src="/reminder.png" alt="its cold bring a jacket" />
-      <div class="uk-child-width-expand@s" uk-grid>
+      <div id="EventsUpdates" class="uk-child-width-expand@s" uk-grid>
         <div>
           <h4>Thursday Oct 10th:</h4>
           <ul class="uk-list uk-list-disc">
@@ -177,10 +177,10 @@ $colorprimary: #dd183f;
   align-items: center;
 }
 
-#cold,
+#EventsUpdates,
 ul li {
-  // align-items: flex-start;
-  text-align: left;
+  align-items: flex-start;
+  // text-align: left;
   list-style-type: square;
 }
 
